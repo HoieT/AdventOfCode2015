@@ -18,15 +18,15 @@
     
     int stories = std::ranges::count(s, '(')-std::ranges::count(s, ')');
     std::cout<< "Dag 1a- etasje: "<< stories<<"\n";
-    int antall= 0; 
-    int etasje =0;
+    int a= 0; 
+    int e =0;
       
-    while( etasje >-1){
-    if(s[antall]=='('){etasje++;}
-    if(s[antall]==')'){etasje--;}
-    antall++;
+    while( e >-1){
+    if(s[a]=='('){e++;}
+    if(s[a]==')'){e--;}
+    a++;
     }
-    std::cout<<"posisjon : "<< antall; 
+    std::cout<<"Dag 1b - posisjon : "<< a; 
 
 return 0;
 } 
