@@ -1,8 +1,8 @@
-#include <iostream>
-#include <bits/stdc++.h>
-#include <string>
-#include <algorithm>
-#include <ranges>
+    #include <iostream>
+    #include <bits/stdc++.h>
+    #include <string>
+    #include <algorithm>
+    #include <ranges>
 
   
  int main(){
